@@ -12,4 +12,3 @@ It supports basic arithmetic operations such as **addition**, **subtraction**, *
 - ✅ Button and keyboard support
 - ✅ Error handling (e.g., division by zero)
 - ✅ Result logging to `calculator_log.txt`
-- ✅ Clean object-oriented code structure
