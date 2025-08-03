@@ -1,27 +1,68 @@
-# Byte-compiled / cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Logs and local data
-*.log
-*.json
-*.txt
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
 # Virtual environments
 venv/
-.venv/
-.env/
+ENV/
+env.bak/
+venv.bak/
 
-# Editor and IDE settings
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
 .vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
 
-# OS-specific files
+# Logs
+*.log
+
+# Mac
 .DS_Store
+
+# Windows
 Thumbs.db
 
-# Personal notes or temp files
-*.bak
-*.tmp
+# Test output
+htmlcov/
+coverage.xml
+*.cover
+*.coverage
+
+# Misc
+*.swp
+*.swo
+
+# Tkinter window config
+*.tcl
+
+# Ignore log files from calculator
+calculator_log.txt
