@@ -25,6 +25,7 @@ class gui_calculator:
         self.master.title("GUI Calculator")
         self.master.geometry("295x250")
         self.master.resizable(False, False)
+        self.result_var = tk.StringVar()
         self.create_widgets()
         self.bind_keys()
 
